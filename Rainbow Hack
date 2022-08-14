@@ -1,6 +1,7 @@
 from hashlib import sha256
 import csv
-
+ 
+ 
 def hash_password_hack(input_file_name , output_file_name):
     with open(input_file_name) as fin:
         reader = csv.reader(fin)
